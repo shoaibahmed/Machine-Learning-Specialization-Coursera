@@ -1,0 +1,29 @@
+Step 1: Ensure Python 2.7.x
+
+# OPTIONAL: if needed, create a new conda environment with Python 2.7.x
+conda create -n dato-env python=2.7
+
+# To activate the conda environment
+activate dato-env
+Step 2: Ensure pip version >= 7
+
+# OPTIONAL: if needed, update conda to the latest pip version
+# mini conda users may need to install using 'conda install pip'
+conda update pip
+Step 3: Install GraphLab Create
+
+# Install your licensed copy of GraphLab Create
+pip install --upgrade --no-cache-dir https://get.dato.com/GraphLab-Create/1.6/12bscsssiddiqui@seecs.edu.pk/A07B-5FE2-EAE1-B366-9BB9-B648-A6D7-4A20/GraphLab-Create-License.tar.gz
+Step 4: Ensure installation of IPython and IPython Notebook
+
+# OPTIONAL: if needed, install or update IPython and IPython Notebook
+# mini conda users may need to install using 'conda install ipython ipython-notebook'
+conda install ipython ipython-notebook
+conda install matplotlib
+conda update ipython ipython-notebook
+
+
+# Directly install using pip
+pip install graphlab-create
+python -m pip install -U graphlab-create
+easy_install -U graphlab-create
